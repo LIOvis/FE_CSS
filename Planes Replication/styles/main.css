@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap");
+@import url("https://db.onlinewebfonts.com/c/47c119b46a64815c975257f0c8a17fbb?family=Clarendon+W01+Bold");
+
+body {
+  margin: 0px;
+  background-image: url("../assets/background.png");
+  background-repeat: repeat-y;
+  background-size: 100%;
+}
+
+.nav-bar {
+  position: sticky;
+  align-content: center;
+  background-color: #162037e6;
+  height: 104px;
+  width: 100%;
+  text-align: center;
+  z-index: 10;
+}
+
+.nav-bar img {
+  width: 64px;
+  height: 70px;
+}
+
+.hero-section {
+  width: 100%;
+  align-content: center;
+  text-align: center;
+}
+
+.hero-section video {
+  max-width: 100%;
+}
+
+.hero-section img {
+  justify-self: center;
+  display: block;
+  position: relative;
+  bottom: 550px;
+  width: 258px;
+  height: 290px;
+}
+
+.mission-container {
+  position: relative;
+  bottom: 295px;
+  height: 612px;
+  color: white;
+  background-image: url("../assets/mission.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  text-align: center;
+  align-content: center;
+}
+
+.mission-container h2 {
+  font-family: "Clarendon W01 Bold";
+  font-weight: 300;
+  font-size: 50px;
+  margin: 41.5px 0px;
+}
+
+.mission-container img {
+  position: relative;
+  bottom: 10px;
+  padding-bottom: 20px;
+  width: 81px;
+  height: 19px;
+}
+
+.mission-container p {
+  text-align: center;
+  font-family: "EB Garamond", serif;
+  font-size: 21px;
+  margin: 21px 0px;
+}
