@@ -1,0 +1,197 @@
+@import url("https://fonts.googleapis.com/css2?family=UnifrakturCook:wght@700&display=swap");
+
+.unifrakturcook-bold {
+  font-family: "UnifrakturCook", cursive;
+  font-weight: 700;
+  font-style: normal;
+}
+
+body {
+  margin: 0px;
+  background-color: #1f2d2d;
+}
+
+.nav-bar {
+  align-items: center;
+  position: fixed;
+  height: 88px;
+  padding: 8px;
+  background-color: #a2a1b3;
+  width: 100%;
+  top: 0%;
+  left: 0%;
+  z-index: 100;
+}
+
+.nav-items {
+  position: absolute;
+  display: inline-block;
+  top: 28px;
+  right: 20px;
+}
+
+a:link.nav-item,
+a:visited.nav-item {
+  display: inline-block;
+  padding: 8px;
+  justify-items: right;
+  align-items: center;
+  font-size: 25px;
+  text-align: center;
+  border-radius: 18px;
+  background-color: #2d1b2f;
+  color: #d3c4e3;
+  text-decoration: none;
+}
+a:hover.nav-item {
+  display: inline-block;
+  padding: 8px;
+  justify-items: right;
+  align-items: center;
+  font-size: 25px;
+  text-align: center;
+  border-radius: 18px;
+  background-color: #d3c4e3;
+  color: #2d1b2f;
+  text-decoration: none;
+}
+a:active.nav-item {
+  display: inline-block;
+  padding: 8px;
+  justify-items: right;
+  align-items: center;
+  font-size: 25px;
+  text-align: center;
+  border-radius: 18px;
+  background-color: #6a0f1c;
+  color: #a9e5d1;
+  text-decoration: none;
+}
+
+.nav-name {
+  display: inline-block;
+  text-align: center;
+  align-items: center;
+  justify-items: left;
+  font-family: "UnifrakturCook", cursive;
+  font-size: 28px;
+  color: #2d1b2f;
+  margin: 0px 18px;
+}
+
+.nav-logo {
+  float: left;
+  height: 100%;
+}
+
+.spacer {
+  height: 88px;
+  margin: 0px;
+}
+.hero-image {
+  position: absolute;
+  left: 0;
+  padding: 18px;
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0px;
+  height: 400px;
+  color: #d3c4e3;
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.8)),
+    url(../assets/gothic-hero.jpg);
+  background-size: 100%;
+  text-align: center;
+  align-content: center;
+  overflow: hidden;
+}
+.container {
+  width: 100%;
+  height: auto;
+  overflow-x: auto;
+}
+.reviews-container {
+  display: inline-block;
+  position: absolute;
+  top: 600px;
+}
+.review {
+  display: inline-block;
+  padding: 18px;
+  width: 250px;
+  height: 250px;
+  margin: 3%;
+  border-radius: 18px;
+  background-color: #d3c4e3;
+  color: #2d1b2f;
+  overflow-x: scroll;
+}
+
+.home-field {
+  color: #6a0f1c;
+}
+
+.about-field {
+  position: relative;
+  top: 1350px;
+  margin: 3%;
+  padding: 18px;
+  text-align: center;
+  font-size: 20px;
+  display: block;
+  background-color: #2d1b2f;
+  color: #a9e5d1;
+  border-radius: 18px;
+}
+
+h2 {
+  text-align: center;
+}
+
+h2.a {
+  text-align: center;
+  color: #d3c4e3;
+}
+
+h4 {
+  margin: 0px 8px;
+}
+
+.our-team-field {
+  position: relative;
+  top: 1380px;
+  margin: 3%;
+  padding: 18px;
+  font-size: 18px;
+  display: block;
+  background-color: #d3c4e3;
+  color: #6a0f1c;
+  border-radius: 18px;
+}
+
+.specialty-flavors-field {
+  position: relative;
+  top: 1450px;
+  color: #2d1b2f;
+}
+.flavors-container {
+  display: inline-block;
+  position: absolute;
+}
+.flavor {
+  display: inline-block;
+  padding: 18px;
+  width: 250px;
+  height: 250px;
+  margin: 3%;
+  border-radius: 18px;
+  background-color: #a9e5d1;
+  overflow-x: scroll;
+}
+
+.line-break-1 {
+  border: dashed #6a0f1c 2px;
+}
+
+.line-break-2 {
+  border: dashed #2d1b2f 2px;
+}
