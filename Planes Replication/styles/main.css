@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap");
-@import url("https://db.onlinewebfonts.com/c/47c119b46a64815c975257f0c8a17fbb?family=Clarendon+W01+Bold");
 
 body {
   margin: 0px;
@@ -9,7 +8,7 @@ body {
 }
 
 .nav-bar {
-  position: sticky;
+  position: fixed;
   align-content: center;
   background-color: #162037e6;
   height: 104px;
@@ -27,6 +26,7 @@ body {
   width: 100%;
   align-content: center;
   text-align: center;
+  padding-top: 104px;
 }
 
 .hero-section video {
@@ -55,23 +55,23 @@ body {
 }
 
 .mission-container h2 {
-  font-family: "Clarendon W01 Bold";
-  font-weight: 300;
+  font-family: serif;
+  font-weight: 700;
   font-size: 50px;
-  margin: 41.5px 0px;
 }
 
 .mission-container img {
   position: relative;
   bottom: 10px;
-  padding-bottom: 20px;
   width: 81px;
   height: 19px;
+  padding-bottom: 20px;
 }
 
 .mission-container p {
   text-align: center;
   font-family: "EB Garamond", serif;
   font-size: 21px;
-  margin: 21px 0px;
+  padding-bottom: 8%;
+  margin: 21px 17%;
 }
