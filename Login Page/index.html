@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Dead Sprinkels Socitety | Login</title>
+  </head>
+  <body>
+    <header>
+      <nav class="nav-bar">
+        <img
+          class="nav-logo"
+          src="./assets/dss-logo.png"
+          alt="Image of a an ice cream cone with the ice cream shaped like a skull."
+        />
+        <div class="nav-items">
+          <div class="nav-name">
+            <div class="nav-name">Dead Sprinkels Society</div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div class="page">
+      <div class="left-column">
+        <img
+          src="./assets/gothic-hero.jpg"
+          alt="Image of ice cream in a gothic silver bowl"
+        />
+      </div>
+      <div class="right-column">
+        <h1>Login</h1>
+        <form action="https://httpbin.org/post" method="post">
+          <div class="email">
+            <input id="email" type="email" placeholder="email" />
+            <i class="fa-solid fa-envelope"></i>
+          </div>
+          <div class="password">
+            <input id="password" type="password" placeholder="password" />
+            <i class="fa-solid fa-question"></i>
+          </div>
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

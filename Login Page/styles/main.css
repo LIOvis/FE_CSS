@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=UnifrakturCook:wght@700&display=swap");
+
+.unifrakturcook-bold {
+  font-family: "UnifrakturCook", cursive;
+  font-weight: 700;
+  font-style: normal;
+}
+
+body {
+  margin: 0px;
+  background-color: #1f2d2d;
+}
+
+.nav-bar {
+  align-items: center;
+  position: relative;
+  height: 15vh;
+  background-color: #a2a1b3;
+  width: 100%;
+  top: 0%;
+  left: 0%;
+  z-index: 100;
+  overflow: hidden;
+}
+
+.nav-items {
+  position: absolute;
+  display: inline-block;
+  top: 28px;
+  right: 20px;
+}
+
+.nav-name {
+  display: inline-block;
+  text-align: center;
+  align-items: center;
+  justify-items: left;
+  font-family: "UnifrakturCook", cursive;
+  font-size: 28px;
+  color: #2d1b2f;
+  margin: 0px 18px;
+}
+
+.nav-logo {
+  float: left;
+  height: 100%;
+}
+
+.left-column {
+  position: relative;
+  top: 15%;
+  width: 50%;
+  height: 85vh;
+  overflow: hidden;
+  overflow-y: hidden;
+  align-items: center;
+  justify-items: center;
+  float: left;
+}
+
+.left-column img {
+  overflow: hidden;
+  height: 85vh;
+}
+
+.right-column {
+  position: relative;
+  top: 15%;
+  width: 50%;
+  height: 85vh;
+  overflow: hidden;
+  align-content: center;
+  justify-items: center;
+  float: right;
+}
+
+h1 {
+  font-family: "UnifrakturCook", cursive;
+  color: #d3c4e3;
+}
+
+i {
+  color: #d3c4e3;
+  width: 20px;
+}
+
+form {
+  align-items: center;
+  justify-items: center;
+}
