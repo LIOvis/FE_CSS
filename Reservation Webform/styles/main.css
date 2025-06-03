@@ -1,0 +1,71 @@
+body {
+  background-color: #a8b3eb;
+  margin: 0;
+}
+
+nav {
+  background-color: #d96349;
+  color: #a8b3eb;
+  display: flex;
+  position: relative;
+  grid-template-columns: repeat(5, 1fr);
+  justify-content: space-between;
+  width: 98;
+  padding: 5px 2%;
+  bottom: 0px;
+}
+
+.page-wrapper {
+  margin: 1%;
+}
+
+.page-wrapper h1,
+.page-wrapper h2,
+.page-wrapper h3,
+.page-wrapper h4 {
+  color: #d96349;
+}
+
+a.class1:link,
+a.class1:visited {
+  color: #a8b3eb;
+  background-color: transparent;
+}
+
+a.class2:link,
+a.class2:visited {
+  color: #d96349;
+  background-color: transparent;
+}
+
+footer {
+  background-color: #d96349;
+  color: #a8b3eb;
+  display: grid;
+  grid-template-areas:
+    "contact contact contact"
+    "phone email address";
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 50px 75dpx;
+  height: 125px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.contact {
+  grid-area: contact;
+}
+
+.phone {
+  grid-area: phone;
+}
+
+.email {
+  grid-area: email;
+}
+
+.address {
+  grid-area: address;
+}

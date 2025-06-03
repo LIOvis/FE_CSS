@@ -1,0 +1,26 @@
+.tracks {
+  display: grid;
+  grid-template-areas:
+    "heading link"
+    "lists image";
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 75px auto;
+  align-items: center;
+}
+
+.heading {
+  grid-area: heading;
+  justify-self: flex-start;
+}
+.link {
+  grid-area: link;
+  justify-self: flex-end;
+}
+.lists {
+  grid-area: lists;
+  justify-self: flex-start;
+}
+.image {
+  grid-area: image;
+  justify-self: flex-end;
+}

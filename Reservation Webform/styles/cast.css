@@ -1,0 +1,30 @@
+.star {
+  display: grid;
+  grid-template-areas:
+    "starring starring starring"
+    "david and jennifer";
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  width: 100%;
+  padding: 0 2%;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.starring {
+  grid-area: starring;
+}
+
+.david {
+  grid-area: david;
+}
+
+.and {
+  grid-area: and;
+  align-self: flex-start;
+}
+
+.jennifer {
+  grid-area: jennifer;
+}
