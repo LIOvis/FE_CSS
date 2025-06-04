@@ -2,11 +2,11 @@
   display: grid;
   grid-template-areas:
     "starring starring starring"
-    "david and jennifer";
+    "david and jennifer"
+    "d-img . j-img";
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: auto;
   width: 100%;
-  padding: 0 2%;
   justify-content: space-between;
   align-items: center;
   text-align: center;
@@ -27,4 +27,25 @@
 
 .jennifer {
   grid-area: jennifer;
+}
+
+.d-img {
+  grid-area: d-img;
+}
+
+.j-img {
+  grid-area: j-img;
+}
+
+.star img {
+  width: 208px;
+  height: 302px;
+}
+
+@media screen and (max-width: 450px) {
+  .star img {
+    width: 130px;
+    height: auto;
+    align-self: center;
+  }
 }

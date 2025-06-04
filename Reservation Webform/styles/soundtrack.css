@@ -24,3 +24,16 @@
   grid-area: image;
   justify-self: flex-end;
 }
+
+@media screen and (max-width: 499px) {
+  .tracks {
+    grid-template-areas:
+      "heading"
+      "link"
+      "image"
+      "lists";
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    gap: 2px;
+  }
+}

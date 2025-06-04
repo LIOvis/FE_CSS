@@ -45,7 +45,7 @@ footer {
   grid-template-areas:
     "contact contact contact"
     "phone email address";
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1.5fr 1fr;
   grid-template-rows: 50px 75dpx;
   height: 125px;
   text-align: center;
@@ -68,4 +68,21 @@ footer {
 
 .address {
   grid-area: address;
+}
+
+@media screen and (max-width: 625px) {
+  footer {
+    font-size: 14px;
+    gap: 0 5px;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  nav {
+    gap: 0 5px;
+    align-items: center;
+  }
+  nav h3 {
+    font-size: 15px;
+  }
 }

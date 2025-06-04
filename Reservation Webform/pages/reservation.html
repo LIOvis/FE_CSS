@@ -80,32 +80,41 @@
             required
           />
           <label for="campsite">Campsite (£50/night)</label>
+          <br />
           <input name="accommodations" id="hotel" type="radio" value="hotel" />
           <label for="hotel">Basic Hotel (£150/night)</label>
+          <br />
           <input name="accommodations" id="suite" type="radio" value="suite" />
           <label for="suite">Deluxe Hotel Suite (£300/night)</label>
         </div>
-        <div class="field-wrapper" id="tents-field">
+        <div class="field-wrapper" id="tents-field" required>
           <p>Accommodations (B):</p>
           <input
-            name="tents"
-            id="not-renting"
+            name="rentals"
+            id="5-seater"
             type="checkbox"
-            value="not-renting"
-            required
+            value="5-seater"
           />
-          <label for="not-renting"
-            >Providing My Own Tent/Not Camping (+£0/night)</label
-          >
+          <label for="5-seater">5 Seater Rental Car (+£350/day)</label>
+          <br />
           <input
-            name="tents"
+            name="rentals"
+            id="7-seater"
+            type="checkbox"
+            value="7-seater"
+          />
+          <label for="7-seater">7 Seater Rental Car (+£400/day)</label>
+          <br />
+          <input
+            name="rentals"
             id="basic-tent"
             type="checkbox"
             value="basic-tent"
           />
           <label for="basic-tent">Basic Rental Tent (+£20/night)</label>
+          <br />
           <input
-            name="tents"
+            name="rentals"
             id="deluxe-tent"
             type="checkbox"
             value="deluxe-tent"
@@ -128,7 +137,7 @@
             name="additional-info"
             id="additional-info"
             rows="10"
-            cols="50"
+            cols="30"
             placeholder="Please enter any additional information here:"
           ></textarea>
         </div>

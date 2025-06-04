@@ -1,35 +1,16 @@
 .container {
-  display: grid;
-  align-items: left;
-  grid-template-columns: 1fr 1fr 1fr;
+  display: flex;
+  justify-content: left;
   column-gap: 10px;
 }
 
-.container2 {
-  display: grid;
-  align-items: left;
-  grid-template-columns: 1fr 1fr;
-  column-gap: 10px;
+.page-wrapper img {
+  height: 375px;
+  width: 258px;
 }
 
-.container3 {
-  display: grid;
-  align-items: left;
-  grid-template-columns: 1fr 3fr;
-  column-gap: 10px;
-}
-
-.image {
-  width: 100%;
-  height: 100%;
-}
-
-.text {
-  font-size: 15px;
-}
-
-.centered-image {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+@media screen and (max-width: 660px) {
+  .container {
+    flex-direction: column;
+  }
 }
