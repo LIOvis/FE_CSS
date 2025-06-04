@@ -55,9 +55,3 @@ textarea {
 textarea::placeholder {
   color: #a8b3eb;
 }
-
-@media screen and (max-width: 450px) {
-  textarea {
-    width: auto;
-  }
-}
