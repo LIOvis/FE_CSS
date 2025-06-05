@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Joti+One&display=swap");
+body {
+  background-color: indigo;
+  color: white;
+  margin: 0;
+}
+body header nav {
+  background-color: deeppink;
+  width: 100%;
+  height: 68px;
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  position: fixed;
+}
+body header nav .nav-items {
+  color: lime;
+  display: flex;
+  width: calc(100% - 16px);
+  justify-content: space-between;
+  align-items: center;
+}
+body header nav .nav-items .nav-icon-wrapper i {
+  font-size: 68px;
+  width: 88px;
+}
+body header nav .nav-items .nav-button-wrapper h3 a {
+  display: inline-block;
+  background-color: indigo;
+  color: lime;
+  width: auto;
+  min-width: 10%;
+  padding: 8px;
+  border-radius: 18px;
+  text-decoration: none;
+}
+body header nav .nav-items .nav-button-wrapper h3 a:hover {
+  background-color: lime;
+  color: indigo;
+}/*# sourceMappingURL=main.css.map */
