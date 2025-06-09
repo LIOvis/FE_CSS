@@ -8,6 +8,19 @@ body {
   background-color: $primary-color;
   color: white;
   margin: 0;
+  font-family: monospace;
+  font-size: 18px;
+
+  h1,
+  h3 {
+    font-family: "Joti One";
+    color: $secondary-color;
+  }
+
+  h2 {
+    font-family: "Joti One";
+    color: $accent-color;
+  }
 
   header {
     nav {
@@ -51,6 +64,89 @@ body {
             }
           }
         }
+      }
+    }
+  }
+
+  .hero-wrapper {
+    .hero-image-content {
+      position: reletive;
+      height: 800px;
+      background-image: url("../assets/invader-zim-space.jpg");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+      span {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: $primary-color;
+        padding: 10px;
+        font-size: 48px;
+        letter-spacing: 8px;
+        opacity: 0.8;
+        color: $accent-color;
+        font-family: "Joti One";
+      }
+    }
+    .hero-text-content {
+      padding: 3%;
+      margin-bottom: 25px;
+    }
+  }
+
+  .additional-info-wrapper {
+    padding: 3%;
+
+    .creator-wrapper,
+    .comic-wrapper {
+      padding: 3%;
+      margin-bottom: 25px;
+      display: grid;
+      grid-template-areas:
+        "title title"
+        "image text";
+      grid-template-columns: 1fr 3fr;
+      grid-template-rows: auto auto;
+      gap: 3%;
+
+      h3 {
+        grid-area: title;
+      }
+
+      .creator-image-content,
+      .comic-image-content {
+        grid-area: image;
+        img {
+          width: 100%;
+        }
+        padding-top: 18px;
+      }
+
+      .creator-text-content,
+      .comic-text-content {
+        grid-area: text;
+      }
+    }
+  }
+
+  footer {
+    height: 68px;
+    background-color: $accent-color;
+
+    a {
+      color: $secondary-color;
+    }
+    .footer-items {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      gap: 3%;
+
+      .footer-item {
+        margin-top: 20px;
       }
     }
   }
