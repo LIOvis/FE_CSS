@@ -1,0 +1,46 @@
+@mixin mid-center-flex(
+  $justify-content: center,
+  $align-items: center,
+  $flex-direction: row
+) {
+  display: flex;
+  justify-content: $justify-content;
+  align-items: $align-items;
+  flex-direction: $flex-direction;
+  @content;
+}
+
+header {
+  @include mid-center-flex(space-between);
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+
+  .nav-label,
+  .nav-search {
+    display: inline-block;
+    padding: 15px;
+    cursor: pointer;
+    transition: 0.3s ease-out;
+  }
+
+  .nav-label {
+    &:hover {
+      background-color: #333;
+      transition: 0.3s ease-in;
+      color: rgb(161, 161, 161);
+    }
+  }
+
+  .nav-search {
+    i {
+      transition: 0.3s ease-out;
+
+      &:hover {
+        transform: scale(1.4);
+        transition: 0.3s ease-in;
+      }
+    }
+  }
+}

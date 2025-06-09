@@ -1,0 +1,16 @@
+html body {
+  margin: 0;
+  font-family: fantasy, "sans-serif";
+  color: #777;
+  font-size: 15px;
+  line-height: 1.8;
+  scroll-behavior: smooth;
+}
+html body a {
+  text-decoration: none;
+  color: inherit;
+}
+html body h3 {
+  font-weight: 600;
+  margin: 10px;
+}/*# sourceMappingURL=common.css.map */
